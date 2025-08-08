@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/screens/home_page.dart';
+import 'package:medtour/screens/inicio.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class WelcomePage extends StatelessWidget {
-  const WelcomePage({super.key});
+class OnBoardingPage extends StatelessWidget {
+  const OnBoardingPage({super.key});
 
   Future<void> markSeenOnboarding () async{
     final prefs = await SharedPreferences.getInstance();

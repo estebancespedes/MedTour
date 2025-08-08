@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:medtour/screens/Eventos/eventos_page.dart';
+import 'package:medtour/screens/Mapa/mapa_page.dart';
+import 'package:medtour/screens/ajustes/ajustes_page.dart';
+import 'package:medtour/screens/explorar/explorar_page.dart';
 
 class NavigBar extends StatefulWidget {
   const NavigBar({super.key});
@@ -10,6 +14,10 @@ class NavigBar extends StatefulWidget {
 class _NavigBarState extends State<NavigBar> {
   int currentIndex = 0;
   static List<Widget> pantallas = [
+    ExplorarPage(),
+    EventosPage(),
+    MapaPage(),
+    AjustesPage(),
   ];
    
   void _onpress (int index){
