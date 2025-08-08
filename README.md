@@ -1,16 +1,10 @@
-# MedTurismo
+<p align="center"><img src="https://socialify.git.ci/estebancespedes/MedTurismo/image?custom_language=Flutter&amp;language=1&amp;name=1&amp;owner=1&amp;theme=Light" alt="project-image"></p>
 
-A new Flutter project.
+<p id="description">(Actualmente en desarrollo) Esta es una aplicación que pretende reunir todos los eventos gratis y de pago de la ciudad de Medellín.</p>
+  
+  
+<h2>💻 Creado con</h2>
 
-## Getting Started
+Tecnologías usadas en este proyecto
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*   Flutter
