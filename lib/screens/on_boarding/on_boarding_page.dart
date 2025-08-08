@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screens/home_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class WelcomePage extends StatelessWidget {
@@ -39,7 +40,7 @@ class WelcomePage extends StatelessWidget {
           FilledButton(
             onPressed: () async{
               Navigator.of(context).pushReplacement(
-              MaterialPageRoute(builder: (context) => const HomePage()),
+              MaterialPageRoute(builder: (context) => const NavigBar()),
               );
               markSeenOnboarding();
             },
