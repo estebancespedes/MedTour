@@ -15,7 +15,7 @@ class WelcomePage extends StatelessWidget {
       body: Column(
         spacing: 40,
         children: [
-          const Image(image: AssetImage('lib/screens/welcome_page/assets/get_started_1.png')),
+          const Image(image: AssetImage('lib/screens/on_boarding/assets/get_started_1.png')),
           Padding(
             padding: EdgeInsetsGeometry.symmetric(horizontal: 50),
             child:  Column(
