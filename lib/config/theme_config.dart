@@ -11,4 +11,33 @@ class Tema{
       brightness: tema,
     );
   }
+
+  TextStyle titleStyle(){
+    return TextStyle(
+      fontFamily: 'Roboto',
+      fontSize: 25,
+      fontWeight: FontWeight.bold
+    );
+  }
+  TextStyle titleStyleItalic(){
+    return TextStyle(
+      fontFamily: 'Roboto_Italic',
+      fontSize: 25,
+      fontWeight: FontWeight.bold
+    );
+  }
+  TextStyle textStyle(){
+    return TextStyle(
+      fontFamily: 'Roboto',
+      fontSize: 15,
+      fontWeight: FontWeight.normal
+    );
+  }
+  TextStyle textStyleItalic(){
+    return TextStyle(
+      fontFamily: 'Roboto_Italic',
+      fontSize: 15,
+      fontWeight: FontWeight.normal
+    );
+  }
 }

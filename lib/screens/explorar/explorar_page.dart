@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:medtour/config/theme_config.dart';
 
 class ExplorarPage extends StatelessWidget {
   const ExplorarPage({super.key});
@@ -6,7 +7,7 @@ class ExplorarPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Explorar'),),
+      appBar: AppBar(title: Text('Explorar',style: Tema().titleStyle(),)),
     );
   }
 }

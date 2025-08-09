@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:medtour/config/theme_config.dart';
 
 class AjustesPage extends StatelessWidget {
   const AjustesPage({super.key});
@@ -6,7 +7,7 @@ class AjustesPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Ajustes'),),
+      appBar: AppBar(title: Text('Ajustes',style: Tema().titleStyle(),),),
     );
   }
 }

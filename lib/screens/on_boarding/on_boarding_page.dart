@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:medtour/config/theme_config.dart';
 import 'package:medtour/screens/inicio.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -18,21 +19,19 @@ class OnBoardingPage extends StatelessWidget {
         children: [
           const Image(image: AssetImage('lib/screens/on_boarding/assets/get_started_1.png')),
           Padding(
-            padding: EdgeInsetsGeometry.symmetric(horizontal: 50),
+            padding: EdgeInsetsGeometry.symmetric(horizontal: 30),
             child:  Column(
               spacing: 20,
               children: [
                 Text(
                 'Descubre Medellín', 
                 textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 25,
-                  fontWeight: FontWeight.w600           
-                  ),
+                style: Tema().titleStyle()
                 ),
                 Text(
                 'Descubre la ciudad de la eterna primavera, desde sus lugares emblemáticos hasta sus joyas ocultas. ¡Tu aventura empieza aquí!',
                   textAlign: TextAlign.center,
+                  style: Tema().textStyle(),
                 )
               ],
             ),
@@ -44,7 +43,7 @@ class OnBoardingPage extends StatelessWidget {
               );
               markSeenOnboarding();
             },
-            child: Text('Empezar'),
+            child: Text('Empezar',style: Tema().textStyle(),),
           ),
         ],
       ),
