@@ -7,7 +7,7 @@ class MapaPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Mapa',style: Tema().titleStyle(),),),
+      appBar: AppBar(title: Text('Mapa',style: Tema().titleStyle(),),centerTitle: true,),
     );
   }
 }

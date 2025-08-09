@@ -7,7 +7,7 @@ class EventosPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Eventos',style: Tema().titleStyle(),),),
+      appBar: AppBar(title: Text('Eventos',style: Tema().titleStyle(),),centerTitle: true,),
     );
   }
 }

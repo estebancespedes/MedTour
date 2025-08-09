@@ -61,6 +61,9 @@ flutter:
 
   assets:
   - lib/screens/on_boarding/assets/get_started_1.png
+  - lib/screens/explorar/assets/images/guatape_img.png
+  - lib/screens/explorar/assets/images/comuna_13_img.png
+  - lib/screens/explorar/assets/images/plaza_botero_img.png
 
   fonts:
     - family: Roboto_Italic

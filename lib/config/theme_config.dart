@@ -26,6 +26,13 @@ class Tema{
       fontWeight: FontWeight.bold
     );
   }
+  TextStyle subTitleStyle(){
+    return TextStyle(
+      fontFamily: 'Roboto',
+      fontSize: 20,
+      fontWeight: FontWeight.bold
+    );
+  }
   TextStyle textStyle(){
     return TextStyle(
       fontFamily: 'Roboto',
