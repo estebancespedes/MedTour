@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:medtour/config/theme_config.dart';
 import 'package:medtour/screens/Eventos/eventos_page.dart';
 import 'package:medtour/screens/Mapa/mapa_page.dart';
 import 'package:medtour/screens/ajustes/ajustes_page.dart';
@@ -31,7 +32,7 @@ class _NavigBarState extends State<NavigBar> {
     return Scaffold(
       body: pantallas[currentIndex],
       bottomNavigationBar: BottomNavigationBar(
-        selectedItemColor: Colors.red,
+        selectedItemColor: Tema().color,
         type: BottomNavigationBarType.shifting,
         unselectedItemColor: Colors.grey,
         
