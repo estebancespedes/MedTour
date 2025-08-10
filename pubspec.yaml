@@ -61,9 +61,25 @@ flutter:
 
   assets:
   - assets/images/Screens/images_on_boarding/get_started_1.png
+
   - assets/images/Screens/images_explorar/guatape_img.png
+  - assets/images/Screens/images_explorar/guatape_imgs/img1.jpeg
+  - assets/images/Screens/images_explorar/guatape_imgs/img2.jpg
+  - assets/images/Screens/images_explorar/guatape_imgs/img3.webp
+  - assets/images/Screens/images_explorar/guatape_imgs/img4.webp
+
   - assets/images/Screens/images_explorar/comuna_13_img.png
+  - assets/images/Screens/images_explorar/comuna_13_imgs/img1.jpg
+  - assets/images/Screens/images_explorar/comuna_13_imgs/img2.jpg
+  - assets/images/Screens/images_explorar/comuna_13_imgs/img3.jpg
+  - assets/images/Screens/images_explorar/comuna_13_imgs/img4.jpg
+
   - assets/images/Screens/images_explorar/plaza_botero_img.png
+  - assets/images/Screens/images_explorar/plaza_botero_imgs/img1.jpg
+  - assets/images/Screens/images_explorar/plaza_botero_imgs/img2.webp
+  - assets/images/Screens/images_explorar/plaza_botero_imgs/img3.webp
+  - assets/images/Screens/images_explorar/plaza_botero_imgs/img4.webp
+
   - Data/sites.json
 
   fonts:

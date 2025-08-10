@@ -1,16 +1,17 @@
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
+import 'package:flutter/widgets.dart';
 import 'package:medtour/providers/assets_dir.dart';
 
 class Lugar{
   final String nombre;
   final String descripcion;
-  final String prev;
-  final String img1;
-  final String img2;
-  final String img3;
-  final String img4;
+  final Image prev;
+  final Image img1;
+  final Image img2;
+  final Image img3;
+  final Image img4;
 
   const Lugar({
     required this.nombre,
@@ -26,11 +27,11 @@ class Lugar{
     return Lugar(
       nombre: json['Lugar'] as String,
       descripcion: json['Descripcion']as String,
-      prev: json['prev'] as String,
-      img1: json['img1'] as String,
-      img2: json['img2'] as String,
-      img3: json['img3'] as String,
-      img4: json['img4'] as String,
+      prev: Image.asset(json['prev'] as String),
+      img1: Image.asset(json['img1'] as String),
+      img2: Image.asset(json['img2'] as String),
+      img3: Image.asset(json['img3'] as String),
+      img4: Image.asset(json['img4'] as String),
     );
   }
 }

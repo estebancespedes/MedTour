@@ -26,7 +26,7 @@ class ExplorarPage extends StatelessWidget {
                     itemCount: lugares.length,
                     itemBuilder: (context, index) {
                       final Lugar lugar = lugares[index];
-                      return CustomButtom(imagen: Image.asset(lugar.prev), lugar: lugar.nombre);
+                      return CustomButtom(imagen: lugar.prev, lugar: lugar.nombre,obj: lugar,);
                     },
                   );
                 }
