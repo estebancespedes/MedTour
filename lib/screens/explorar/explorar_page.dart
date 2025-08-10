@@ -18,9 +18,9 @@ class ExplorarPage extends StatelessWidget {
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: [
-                CustomButtom(imagen: Image.asset('lib/screens/explorar/assets/images/comuna_13_img.png'),lugar: 'comuna 13',),
-                CustomButtom(imagen: Image.asset('lib/screens/explorar/assets/images/guatape_img.png'),lugar: 'Guatape',),
-                CustomButtom(imagen: Image.asset('lib/screens/explorar/assets/images/plaza_botero_img.png'), lugar: 'Plaza Botero'),
+                CustomButtom(imagen: Image.asset('assets/images/Screens/images_explorar/comuna_13_img.png'),lugar: 'comuna 13',),
+                CustomButtom(imagen: Image.asset('assets/images/Screens/images_explorar/guatape_img.png'),lugar: 'Guatape',),
+                CustomButtom(imagen: Image.asset('assets/images/Screens/images_explorar/plaza_botero_img.png'), lugar: 'Plaza Botero'),
               ],
             ),
           )
