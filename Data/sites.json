@@ -1,0 +1,32 @@
+[
+    {
+        "Lugar":"Guatape",
+        "Descripcion":"Guatape es un destino imperdible",
+        "prev":"assets/images/Screens/images_explorar/guatape_img.png",
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":""
+        
+    },
+    {
+        "Lugar":"Comuna 13",
+        "Descripcion":"Comuna 13 es un destino imperdible",
+        "prev":"assets/images/Screens/images_explorar/comuna_13_img.png",
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":""
+        
+    },
+    {
+        "Lugar":"Plaza Botero",
+        "Descripcion":"Guatape es un destino imperdible",
+        "prev":"assets/images/Screens/images_explorar/plaza_botero_img.png",
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":""
+        
+    }
+]

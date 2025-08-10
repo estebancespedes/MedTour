@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medtour/config/theme_config.dart';
+import 'package:medtour/providers/site_provider.dart';
 import 'package:medtour/screens/explorar/assets/custom_buttom.dart';
 
 class ExplorarPage extends StatelessWidget {
@@ -15,14 +16,29 @@ class ExplorarPage extends StatelessWidget {
           Text('Lugares por visitar',style: Tema().subTitleStyle(),),
           SizedBox(
             height: 200,
-            child: ListView(
-              scrollDirection: Axis.horizontal,
-              children: [
-                CustomButtom(imagen: Image.asset('assets/images/Screens/images_explorar/comuna_13_img.png'),lugar: 'comuna 13',),
-                CustomButtom(imagen: Image.asset('assets/images/Screens/images_explorar/guatape_img.png'),lugar: 'Guatape',),
-                CustomButtom(imagen: Image.asset('assets/images/Screens/images_explorar/plaza_botero_img.png'), lugar: 'Plaza Botero'),
-              ],
-            ),
+            child: FutureBuilder<List<Lugar>>(
+              future: loadLugares(),
+              builder: (context, snapshot) {
+                if(snapshot.hasData){
+                  final List<Lugar> lugares = snapshot.data!;
+                  return ListView.builder(
+                    scrollDirection: Axis.horizontal,
+                    itemCount: lugares.length,
+                    itemBuilder: (context, index) {
+                      final Lugar lugar = lugares[index];
+                      return CustomButtom(imagen: Image.asset(lugar.prev), lugar: lugar.nombre);
+                    },
+                  );
+                }
+                if(snapshot.connectionState == ConnectionState.waiting){
+                  return Text('error');
+                }
+                if(snapshot.hasError){
+                  return Text('error');
+                }
+                return Text('error');
+              },
+            )
           )
         ],
       ),

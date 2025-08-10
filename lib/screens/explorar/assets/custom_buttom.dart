@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medtour/config/theme_config.dart';
+import 'package:medtour/screens/explorar/assets/custom_site_screen.dart';
 
 class CustomButtom extends StatelessWidget {
   final Image imagen;
@@ -15,7 +16,9 @@ class CustomButtom extends StatelessWidget {
 
     return MaterialButton(
       padding: EdgeInsetsGeometry.all(10),
-      onPressed: () {},
+      onPressed: () {
+        Navigator.push(context, MaterialPageRoute(builder: (context) => SiteScreen(lugar: lugar)));
+      },
       child: Column(
         spacing: 10,
         children: [

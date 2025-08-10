@@ -64,6 +64,7 @@ flutter:
   - assets/images/Screens/images_explorar/guatape_img.png
   - assets/images/Screens/images_explorar/comuna_13_img.png
   - assets/images/Screens/images_explorar/plaza_botero_img.png
+  - Data/sites.json
 
   fonts:
     - family: Roboto_Italic
