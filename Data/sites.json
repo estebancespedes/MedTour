@@ -1,0 +1,41 @@
+[
+    {
+        "Lugar":"Guatapé",
+        "Descripcion":"Guatapé, un pintoresco pueblo en el departamento de Antioquia, es conocido por dos cosas que te dejarán sin aliento: su colorida arquitectura y la imponente Piedra del Peñol. Las casas del pueblo están adornadas con zócalos bellamente pintados que cuentan historias de sus habitantes, oficios y tradiciones. \n \nPero la verdadera estrella es la Piedra del Peñol, un monolito de 220 metros de altura al que puedes subir por sus 740 escalones. La recompensa por este esfuerzo es una vista panorámica de 360° de la Represa de Guatapé, un paisaje de islas y penínsulas que parece sacado de un cuento de hadas.\n \nGuatapé ofrece una mezcla perfecta de cultura, naturaleza y aventura. Es un lugar ideal para aquellos que buscan vistas espectaculares y un ambiente vibrante.",
+        "prev":"assets/images/Screens/images_explorar/guatape_img.png",
+        "img1":"assets/images/Screens/images_explorar/guatape_imgs/img1.jpeg",
+        "img2":"assets/images/Screens/images_explorar/guatape_imgs/img2.jpg",
+        "img3":"assets/images/Screens/images_explorar/guatape_imgs/img3.webp",
+        "img4":"assets/images/Screens/images_explorar/guatape_imgs/img4.webp"
+    },
+    {
+        "Lugar":"Comuna 13",
+        "Descripcion":"La Comuna 13, ubicada en la ladera occidental de Medellín, es un ejemplo asombroso de transformación social. Antiguamente una de las zonas más peligrosas de la ciudad, hoy es un vibrante epicentro de arte, música e historia. Su principal atractivo son los grafitis que adornan sus muros, murales que no solo son hermosos, sino que también cuentan historias de resistencia, superación y esperanza.\n \nUna de las innovaciones más importantes son las escaleras eléctricas al aire libre, que facilitan el acceso a las partes más altas del barrio. Este sistema de transporte no solo mejoró la movilidad, sino que también se convirtió en un símbolo de progreso y cohesión comunitaria.\n\nVisitar la Comuna 13 es sumergirte en un tour lleno de color, música urbana y, sobre todo, un conmovedor testimonio de cómo el arte y la comunidad pueden cambiar un destino. Es una experiencia que te hará reflexionar y te llenará de inspiración.",
+        "prev":"assets/images/Screens/images_explorar/comuna_13_img.png",
+        "img1":"assets/images/Screens/images_explorar/comuna_13_imgs/img1.jpg",
+        "img2":"assets/images/Screens/images_explorar/comuna_13_imgs/img2.jpg",
+        "img3":"assets/images/Screens/images_explorar/comuna_13_imgs/img3.jpg",
+        "img4":"assets/images/Screens/images_explorar/comuna_13_imgs/img4.jpg"
+        
+    },
+    {
+        "Lugar":"Plaza Botero",
+        "Descripcion":"En el corazón de Medellín, la Plaza Botero es un museo al aire libre que rinde homenaje a uno de los artistas más importantes de Colombia: Fernando Botero. Este emblemático espacio está adornado con 23 esculturas monumentales de bronce, donadas por el propio artista. Con su estilo único e inconfundible, conocido por sus figuras voluminosas, las obras de Botero invitan a la gente a interactuar, fotografiarse y admirar el arte de una manera cercana y sin pretensiones.\n\nLa plaza se encuentra entre dos importantes edificios culturales: el Museo de Antioquia y el Palacio de la Cultura Rafael Uribe Uribe. Juntos, forman un vibrante centro cultural que atrae tanto a locales como a turistas. Es el lugar perfecto para sumergirse en el arte colombiano, disfrutar del ambiente de la ciudad y contemplar cómo las obras de Botero transforman un espacio público en una galería de arte accesible para todos.",
+        "prev":"assets/images/Screens/images_explorar/plaza_botero_img.png",
+        "img1":"assets/images/Screens/images_explorar/plaza_botero_imgs/img1.jpg",
+        "img2":"assets/images/Screens/images_explorar/plaza_botero_imgs/img2.webp",
+        "img3":"assets/images/Screens/images_explorar/plaza_botero_imgs/img3.webp",
+        "img4":"assets/images/Screens/images_explorar/plaza_botero_imgs/img4.webp"
+        
+    },
+    {
+        "Lugar":"Pueblito Paisa",
+        "Descripcion":"En la cima del Cerro Nutibara, en el corazón de Medellín, se encuentra el Pueblito Paisa, una encantadora réplica de un pueblo tradicional antioqueño del siglo XX. Este lugar es un viaje en el tiempo que te transporta a la vida rural de la región, con su plaza principal, la iglesia, la alcaldía, y las coloridas casas con sus balcones floridos.\n\nAdemás de su arquitectura, el Pueblito Paisa ofrece una de las mejores vistas panorámicas de 360 grados de todo Medellín. Desde aquí, podrás apreciar la extensión de la ciudad, los valles que la rodean y las montañas que la abrazan.\n\nEs el sitio perfecto para conocer de cerca la cultura paisa, probar la deliciosa gastronomía local en sus restaurantes y comprar artesanías. Visitarlo es una manera ideal de desconectar del ajetreo de la ciudad por un momento, mientras disfrutas de una vista espectacular.",
+        "prev":"assets/images/Screens/images_explorar/pueblito_paisa_img.png",
+        "img1":"assets/images/Screens/images_explorar/pueblito_paisa_imgs/img1.jpeg",
+        "img2":"assets/images/Screens/images_explorar/pueblito_paisa_imgs/img2.jpg",
+        "img3":"assets/images/Screens/images_explorar/pueblito_paisa_imgs/img3.jpg",
+        "img4":"assets/images/Screens/images_explorar/pueblito_paisa_imgs/img4.jpg"
+
+    }
+]

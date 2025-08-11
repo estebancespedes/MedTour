@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'package:medtour/config/init_selecter.dart';
+import 'package:medtour/config/theme_config.dart';
+
 
 void main() => runApp(const MyApp());
 
@@ -12,6 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: InitSelecter(),
+      theme: Tema().themeData(),
     );
   }
 }

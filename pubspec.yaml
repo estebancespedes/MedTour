@@ -60,7 +60,43 @@ flutter:
   uses-material-design: true
 
   assets:
-  - lib/screens/on_boarding/assets/get_started_1.png
+  - assets/images/Screens/images_on_boarding/get_started_1.png
+
+  - assets/images/Screens/images_explorar/guatape_img.png
+  - assets/images/Screens/images_explorar/guatape_imgs/img1.jpeg
+  - assets/images/Screens/images_explorar/guatape_imgs/img2.jpg
+  - assets/images/Screens/images_explorar/guatape_imgs/img3.webp
+  - assets/images/Screens/images_explorar/guatape_imgs/img4.webp
+
+  - assets/images/Screens/images_explorar/comuna_13_img.png
+  - assets/images/Screens/images_explorar/comuna_13_imgs/img1.jpg
+  - assets/images/Screens/images_explorar/comuna_13_imgs/img2.jpg
+  - assets/images/Screens/images_explorar/comuna_13_imgs/img3.jpg
+  - assets/images/Screens/images_explorar/comuna_13_imgs/img4.jpg
+
+  - assets/images/Screens/images_explorar/plaza_botero_img.png
+  - assets/images/Screens/images_explorar/plaza_botero_imgs/img1.jpg
+  - assets/images/Screens/images_explorar/plaza_botero_imgs/img2.webp
+  - assets/images/Screens/images_explorar/plaza_botero_imgs/img3.webp
+  - assets/images/Screens/images_explorar/plaza_botero_imgs/img4.webp
+
+  - assets/images/Screens/images_explorar/pueblito_paisa_img.png
+  - assets/images/Screens/images_explorar/pueblito_paisa_imgs/img1.jpeg
+  - assets/images/Screens/images_explorar/pueblito_paisa_imgs/img2.jpg
+  - assets/images/Screens/images_explorar/pueblito_paisa_imgs/img3.jpg
+  - assets/images/Screens/images_explorar/pueblito_paisa_imgs/img4.jpg
+
+  - Data/sites.json
+
+  fonts:
+    - family: Roboto_Italic
+      fonts:
+        - asset: assets/fonts/Roboto-Italic-VariableFont_wdth,wght.ttf
+          style: italic
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-VariableFont_wdth,wght.ttf
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
