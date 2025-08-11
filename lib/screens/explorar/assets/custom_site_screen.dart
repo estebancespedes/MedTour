@@ -9,22 +9,27 @@ class SiteScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(lugar.nombre, style: Tema().titleStyle(),textAlign: TextAlign.center,),),
-      body: ListView(children: [
-        SizedBox(
-          height: 300,
-          child:ListView(
-            scrollDirection: Axis.horizontal,
-            children: [
-              lugar.img1,
-              lugar.img2,
-              lugar.img3,
-              lugar.img4,
-            ],
+      appBar: AppBar(title: Text(lugar.nombre, style: Tema().titleStyle(),textAlign: TextAlign.center,),forceMaterialTransparency: true),
+      body: ListView(
+        children: [
+          SizedBox(
+            height: 300,
+            child:ListView(
+              scrollDirection: Axis.horizontal,
+              children: [
+                lugar.img1,
+                lugar.img2,
+                lugar.img3,
+                lugar.img4,
+              ],
+            ),
           ),
-        ),
-        Text(lugar.descripcion, style: Tema().textStyle(),)
-      ],)
+          SizedBox(height: 10,),
+          Text('Descripcion',style: Tema().subTitleStyle(),),
+          SizedBox(height: 5,),
+          Text(lugar.descripcion, style: Tema().textStyle(),)
+        ],
+      )
     );
   }
 }

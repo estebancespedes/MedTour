@@ -7,7 +7,7 @@ class AjustesPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Ajustes',style: Tema().titleStyle(),),centerTitle: true,),
+      appBar: AppBar(title: Text('Ajustes',style: Tema().titleStyle(),),centerTitle: true,forceMaterialTransparency: true,),
     );
   }
 }

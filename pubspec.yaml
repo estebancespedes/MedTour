@@ -80,6 +80,12 @@ flutter:
   - assets/images/Screens/images_explorar/plaza_botero_imgs/img3.webp
   - assets/images/Screens/images_explorar/plaza_botero_imgs/img4.webp
 
+  - assets/images/Screens/images_explorar/pueblito_paisa_img.png
+  - assets/images/Screens/images_explorar/pueblito_paisa_imgs/img1.jpeg
+  - assets/images/Screens/images_explorar/pueblito_paisa_imgs/img2.jpg
+  - assets/images/Screens/images_explorar/pueblito_paisa_imgs/img3.jpg
+  - assets/images/Screens/images_explorar/pueblito_paisa_imgs/img4.jpg
+
   - Data/sites.json
 
   fonts:
