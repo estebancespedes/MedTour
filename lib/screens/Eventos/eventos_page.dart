@@ -13,6 +13,8 @@ class EventosPage extends StatelessWidget {
         children: [
           EventElement(),
           EventElement(),
+          EventElement(),
+          EventElement(),
           EventElement()
         ],
       ),
