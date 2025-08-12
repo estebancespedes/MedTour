@@ -11,7 +11,9 @@ class EventosPage extends StatelessWidget {
       body: ListView(
         padding: EdgeInsets.fromLTRB(10, 5, 10, 5),
         children: [
-          EventElement() 
+          EventElement(),
+          EventElement(),
+          EventElement()
         ],
       ),
     );
