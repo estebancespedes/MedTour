@@ -17,7 +17,7 @@ class CustomSiteButtons extends StatelessWidget {
                   itemCount: lugares.length,
                   itemBuilder: (context, index) {
                     final Lugar lugar = lugares[index];
-                    return CustomButtom(imagen: lugar.prev, lugar: lugar.nombre,obj: lugar,);
+                    return CustomButtom(obj: lugar,);
                   },
                 );
               }
