@@ -13,7 +13,7 @@ class NavigBar extends StatefulWidget {
 }
 
 class _NavigBarState extends State<NavigBar> {
-  int currentIndex = 0;
+  int currentIndex = 1;
   static List<Widget> pantallas = [
     ExplorarPage(),
     EventosPage(),
